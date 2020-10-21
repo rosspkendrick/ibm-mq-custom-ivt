@@ -1,7 +1,7 @@
 apiVersion: build.openshift.io/v1
 kind: BuildConfig
 metadata:
-  name: mqivt 
+  name: mqivtrk
 spec:
   source:
     git:
@@ -18,4 +18,4 @@ spec:
   output:
     to:
       kind: ImageStreamTag
-      name: 'mqivt:v1.2'
+      name: 'mqivtrk:v1.0'
